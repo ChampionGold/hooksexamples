@@ -117,6 +117,33 @@ function App() {
               </div>
           </div>
         </section>
+        <hr className="featurette-divider"/>
+
+        {/* Definition Section*/}
+        <section>
+          <h2>useEffect() Syntax</h2>
+  
+          <div className="container">
+              <div className="row">
+                {/* <div className="col-md-2"> 
+                <img className="paragraph-img" src="https://image.freepik.com/vector-gratis/gancho-pesca-dibujo-mano-estilo-vintage-imagenes-predisenadas-blanco-negro-aislado_67600-567.jpg"></img>
+                </div> */}
+                <div className="col-md-12 paragraph">
+                  <p>The components on React use either props and/or states to set or calculate the output. If the functional component makes calculations that don’t target the output value, then these calculations are named side-effects.</p>
+                  <p>An example of side-effects would be fetch data request, manipulating the real DOM, timers, etc. </p>
+                  <p>In the case of the useEffect, the syntax is the following:</p>
+                  <pre className="code-showroom">
+                  <code >
+                      useEffect(<i>callback</i>[, <i>dependencies</i>]);
+                  </code>
+                  </pre>
+                  <p>Where <b>callback</b> is the function containing side-effect logic, <b>dependencies</b> is an optional array  </p>
+
+                </div>
+              </div>
+
+          </div>
+        </section>
     </div>
   );
 }
