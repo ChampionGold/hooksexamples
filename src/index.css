@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.sandbox-title {
+  margin-top:25px;
+  margin-bottom:25px;
+}
+
+.sandbox-section{
+  margin-bottom: 25px;
+}
+.codepic{
+  max-width: 750px;
+}
+.codepic-upper{
+  max-width: 750px;
+  margin-bottom:25px;
+}
+.greentext{
+  color:green;
+  font:bold;
+}
+.tldr-subtitle{
+  font-style: italic;
+  margin-bottom: 25px;
+}
+.paragraph-img{
+  max-width:100px;
+}
+.paragraph{
+  text-align: justify;
+}
+.code-showroom{
+  background-color:#1e2024;
+  color:#829cd1;
+  padding-top: 10px;
+  padding-bottom:10px;
+  padding-left:10px;
+}
